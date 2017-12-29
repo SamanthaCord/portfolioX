@@ -1,20 +1,85 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 
 * {
   /*border: solid green 1px;*/
-  margin: 0 auto;
   box-sizing: border-box;
 }
 
 body {
   background-color: #232020;
+  margin: 0 auto;
 }
 
+main {
+  width: 100vw;
+}
+
+.emailContainer {
+  width: 270px;
+  height: 55vh;
+  position: fixed;
+  margin-left: 1100px;
+  margin-top: -1300px;
+  background-color: white;
+  border: solid 15px #2000ff;
+  display: inline-block;
+}
+
+.contactHeading {
+  font-family: 'PT Sans', sans-serif;
+  color: #2000ff;
+  font-size: 32px;
+  padding-left: 9px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+.details {
+  font-family: 'PT Sans', sans-serif;
+  color: #2000ff;
+  font-size: 15px;
+  padding-left: 9px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+
+.statNumber {
+  font-family: 'PT Sans', sans-serif;
+  color: #2000ff;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.2px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.statDetails {
+  font-family: 'PT Sans', sans-serif;
+  color: #2000ff;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 22px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+  margin-top: -5px;
+  margin-bottom: 55px;
+}
+
+.fineprint {
+  font-family: 'PT Sans', sans-serif;
+  color: #2000ff;
+  font-size: 11px;
+  padding-left: 9px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
 
 .gridContainer {
   max-width: 990px;
   max-height: 1340px;
-  margin: 0 auto;
+  display: inline-block;
+  margin-left: 150px;
   padding: 0;
   border: 15px white solid;
 }
@@ -36,12 +101,13 @@ img {
 
 footer {
   margin-top: 240px;
-  padding: 14px;
+  padding: 10px;
   background-color: #2000ff;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 38px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 51px;
+  letter-spacing: 1.2px;
 }
 
 a {
