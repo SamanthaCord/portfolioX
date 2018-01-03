@@ -2,7 +2,7 @@ console.log("hello");
 
 ////////bribe page random word display
 
-bribes = ["Chocolate", "Gin", "Pie", "Cudos", "Sour Worms", "Whiskey", "Pizza", "Cigars", "Cheese"];
+bribes = ["Chocolate", "Gin", "Pie", "Cudos", "Sour Worms", "Whiskey", "Pizza", "Cigars", "Cheese", "All the things"];
 // console.log(bribes);
 
 const random = function(array) {
