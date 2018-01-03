@@ -71,12 +71,12 @@ main {
   margin-top: -5px;
   margin-right: 0;
   display: inline-block;
-  background-color: red;
+  background-color: black;
 }
 
-/*.square:hover {
-  border: solid 20px #ff2f00;
-}*/
+.colorHover {
+   opacity: .5;
+}
 
 img {
   width: 480px;
@@ -160,7 +160,7 @@ img {
 }
 
 #overlay {
-  /*display: none;*/
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
