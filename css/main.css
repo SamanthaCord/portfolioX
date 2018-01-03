@@ -13,7 +13,7 @@
   img { max-width: 60vw; max-height: 80vh;  }
   .square { max-width: 60vw; max-height: 80vh; }
   .contactLink { font-size: 55%; display: inline-block; }
-
+  .fineprint { padding-top: 20px; }
 }
 
 /*Mobiles landscape mode*/
@@ -21,6 +21,7 @@
   img { max-width: 60vw; max-height: 80vh;  }
   .square { max-width: 60vw; max-height: 80vh; }
   .contactLink { font-size: 55%; display: inline-block; }
+  .fineprint { padding-top: 20px; }
 }
 
 /*Tablets*/
@@ -51,6 +52,7 @@ body {
   letter-spacing: 1.2px;
   line-height: 1.2;
 }
+
 
 /*////////////////////////HOME//////////////////////////*/
 
@@ -122,50 +124,9 @@ img {
 }
 
 
-/*////////////////////////ASIDE//////////////////////////*/
-
-.emailContainer {
-  width: 270px;
-  height: 55vh;
-  position: sticky;
-  vertical-align: top;
-  margin-left: 1140px;
-  margin-top: -1300px;
-  background-color: white;
-  border: solid 15px #2000ff;
-  display: none;
-}
-
-.statNumber {
-  color: #2000ff;
-  font-size: 70px;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 20px;
-  padding-top: 40px;
-  margin-bottom: 0;
-}
-
-.statDetails {
-  color: #2000ff;
-  font-size: 20px;
-  padding-left: 40px;
-  padding-right: 22px;
-  margin-top: 0;
-}
-
-.fineprint {
-  color: #2000ff;
-  font-size: 10px;
-  position: absolute;
-  bottom: 0;
-  padding-left: 10px;
-}
-
-
 /*///////////////////////PROJECT LINK/////////////////////////*/
 
-.projectLink {
+div.projectLink {
   height: 100%;
   width: 70px;
   background-color: #ff2f00;
@@ -174,6 +135,7 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
+  z-index: 2;
 }
 
 .projectLink:hover {
@@ -251,16 +213,85 @@ footer {
   text-align: center;
   font-weight: 400;
   font-size: 40px;
-  padding: 10px;
 }
 
-#footerLink {
-  display: block;
+.footerLink {
+  display: inline-block;
   text-decoration: none;
   color: white;
-  padding: 2px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-#footerLink:hover {
-  padding: 5px;
+#gitty:hover {
+  animation: bounce 1s infinite;
+  -webkit-animation: bounce 1s infinite; //webkit browsers
+  -moz-animation: bounce 1s infinite; //firefox
+  -o-animation: bounce 1s infinite; //opera
+}
+
+/*////////////////////////BOTTOM STAT//////////////////////////*/
+
+#wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.statNumber {
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+}
+
+.statDetails {
+  color: white;
+  font-size: 40px;
+  margin-top: -40px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#star {
+  font-size: 40px;
+}
+
+#makeSomething {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.fineprint {
+  color: white;
+  font-size: 10px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+
+/*////////////////////////BOUNCE ANIMATION/////////////////////*/
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
 }
