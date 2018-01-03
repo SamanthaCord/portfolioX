@@ -6,6 +6,44 @@
   box-sizing: border-box;
 }
 
+/*//////////MEDIA QUERIES FOR DIFFERENT VIEWPORTS///////////*/
+
+/*Mobiles portrait mode*/
+@media only screen and (max-width : 320px) {
+  img { max-width: 60vw; max-height: 80vh;  }
+  .square { max-width: 60vw; max-height: 80vh; }
+  .contactLink { font-size: 55%; display: inline-block; }
+
+}
+
+/*Mobiles landscape mode*/
+@media only screen and (min-width : 321px) {
+  img { max-width: 60vw; max-height: 80vh;  }
+  .square { max-width: 60vw; max-height: 80vh; }
+  .contactLink { font-size: 55%; display: inline-block; }
+}
+
+/*Tablets*/
+@media only screen and (min-width : 768px) {
+  img { max-width: 60vw; max-height: 80vh;  }
+  .square { max-width: 60vw; max-height: 80vh; }
+  .contactLink { font-size: 70%; display: inline-block; }
+}
+
+/*Desktops and laptops*/
+@media only screen and (min-width : 1224px) {
+.greeting { width: 70vw; }
+.contactLink { font-size: 70%; display: inline-block; }
+
+}
+
+/*Very large screens*/
+@media only screen and (min-width : 1824px) {
+
+}
+
+/*///////////////////////////////////////////////////////////*/
+
 body {
   font-family: 'Encode Sans Expanded', sans-serif;
   background-color: #232020;
@@ -55,13 +93,12 @@ main {
 }
 
 .gridContainer {
-  max-width: 1000px;
-  max-height: 1473px;
   display: inline-block;
   margin-top: 30px;
   margin-left: 150px;
   padding: 0;
-  border: 20px white solid;
+  margin-bottom: 240px;
+  /*border: 20px white solid;*/
 }
 
 .square {
@@ -81,11 +118,9 @@ main {
 img {
   width: 480px;
   height: 480px;
+  border: 18px solid white;
 }
 
-#lastRow {
-  margin-bottom: 240px;
-}
 
 /*////////////////////////ASIDE//////////////////////////*/
 
@@ -98,7 +133,7 @@ img {
   margin-top: -1300px;
   background-color: white;
   border: solid 15px #2000ff;
-  display: inline-block;
+  display: none;
 }
 
 .statNumber {
