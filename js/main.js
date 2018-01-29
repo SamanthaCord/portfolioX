@@ -19,56 +19,56 @@ $(document).ready(function () {
 
 ////////// hover sqaure 1
 
-  $('#1').mouseenter(function() {
-    $('#2, #3, #4, #5, #6').addClass("colorHover");
+  $('#one').mouseenter(function() {
+    $('#two, #three, #four, #five, #six').addClass("colorHover");
   });
-  $('#1').mouseleave(function() {
-    $('#2, #3, #4, #5, #6').removeClass("colorHover");
+  $('#one').mouseleave(function() {
+    $('#two, #three, #four, #five, #six').removeClass("colorHover");
   });
 
 ///////// hover sqaure 2
 
-  $('#2').mouseenter(function() {
-    $('#1, #3, #4, #5, #6').addClass("colorHover");
+  $('#two').mouseenter(function() {
+    $('#one, #three, #four, #five, #six').addClass("colorHover");
   });
-  $('#2').mouseleave(function() {
-    $('#1, #3, #4, #5, #6').removeClass("colorHover");
+  $('#two').mouseleave(function() {
+    $('#one, #three, #four, #five, #six').removeClass("colorHover");
   });
 
 ///////// hover sqaure 3
 
-$('#3').mouseenter(function() {
-  $('#1, #2, #4, #5, #6').addClass("colorHover");
+$('#three').mouseenter(function() {
+  $('#one, #two, #four, #five, #six').addClass("colorHover");
 });
-$('#3').mouseleave(function() {
-  $('#1, #2, #4, #5, #6').removeClass("colorHover");
+$('#three').mouseleave(function() {
+  $('#one, #two, #four, #five, #six').removeClass("colorHover");
 });
 
 ///////// hover sqaure 4
 
-$('#4').mouseenter(function() {
-  $('#1, #2, #3, #5, #6').addClass("colorHover");
+$('#four').mouseenter(function() {
+  $('#one, #two, #three, #five, #six').addClass("colorHover");
 });
-$('#4').mouseleave(function() {
-  $('#1, #2, #3, #5, #6').removeClass("colorHover");
+$('#four').mouseleave(function() {
+  $('#one, #two, #three, #five, #six').removeClass("colorHover");
 });
 
 ///////// hover sqaure 5
 
-$('#5').mouseenter(function() {
-  $('#1, #2, #3, #4, #6').addClass("colorHover");
+$('#five').mouseenter(function() {
+  $('#one, #two, #three, #four, #six').addClass("colorHover");
 });
-$('#5').mouseleave(function() {
-  $('#1, #2, #3, #4, #6').removeClass("colorHover");
+$('#five').mouseleave(function() {
+  $('#one, #two, #three, #four, #six').removeClass("colorHover");
 });
 
 ///////// hover sqaure 6
 
-$('#6').mouseenter(function() {
-  $('#1, #2, #3, #4, #5').addClass("colorHover");
+$('#six').mouseenter(function() {
+  $('#one, #two, #three, #four, #five').addClass("colorHover");
 });
-$('#6').mouseleave(function() {
-  $('#1, #2, #3, #4, #5').removeClass("colorHover");
+$('#six').mouseleave(function() {
+  $('#one, #two, #three, #four, #five').removeClass("colorHover");
 });
 
 ///////contact overlay
