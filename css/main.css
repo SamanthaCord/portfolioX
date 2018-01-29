@@ -58,7 +58,7 @@ body {
 
 .logo  {
   margin: 20px;
-  padding: 2px;
+  padding: 4px;
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -68,7 +68,6 @@ body {
 }
 
 .logo:hover {
-  transform: scaleY(1.5);
   background-color: white;
 }
 
@@ -88,7 +87,7 @@ main {
 
 .greeting {
   color: white;
-  font-size: 70px;
+  font-size: 57px;
   font-weight: 700;
   margin: 40px;
   max-width: 1200px;
@@ -100,7 +99,6 @@ main {
   padding: 0;
   margin-bottom: 240px;
   display: inline-grid;
-
 }
 
 #one {
@@ -133,27 +131,19 @@ main {
     grid-row: 3 / 3;
 }
 
-
-
 .square {
   width: 480px;
   height: 480px;
   padding: 0;
-  margin-top: -5px;
   margin-right: 0;
   display: inline-block;
   background-color: black;
-
+  cursor: pointer;
 }
 
 .colorHover {
    opacity: .5;
-}
 
-img {
-  width: 480px;
-  height: 480px;
-  border: 18px solid white;
 }
 
 
@@ -182,6 +172,7 @@ div.projectLink {
   margin: 10px;
   font-weight: 400;
   height: 65vh;
+  cursor: pointer;
 }
 
 #contact:hover {
