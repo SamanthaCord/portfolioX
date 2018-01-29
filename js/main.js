@@ -73,7 +73,11 @@ $('#six').mouseleave(function() {
 
 ///////contact overlay
 
-  $("#contact").click(function() {
+  $(".contact").click(function() {
+    $("#overlay").css("display", "block");
+  })
+
+  $("#mobileContact").click(function() {
     $("#overlay").css("display", "block");
   })
 

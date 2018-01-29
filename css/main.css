@@ -9,39 +9,16 @@
 /*//////////MEDIA QUERIES FOR DIFFERENT VIEWPORTS///////////*/
 
 /*Mobiles portrait mode*/
-@media only screen and (max-width : 320px) {
-  /* img { max-width: 60vw; max-height: 80vh;  }
-  .square { max-width: 60vw; max-height: 80vh; } */
+@media screen and (max-width : 480px) {
   .contactLink { font-size: 55%; display: inline-block; }
   .fineprint { padding-top: 20px; }
+  .contact { display: none; }
+  #mobileContact { display: inline-block; text-align: center; font-weight: 400; font-size: 40px; color: white; padding: 4%; padding-left: 17%; cursor: pointer; }
+  #mobileProjectLink { display: block; background-color: red; width: 100%; height: 5em; bottom: 0; top: 96.5%;}
 }
 
-/*Mobiles landscape mode*/
-@media only screen and (min-width : 321px) {
-  /* img { max-width: 60vw; max-height: 80vh;  }
-  .square { max-width: 60vw; max-height: 80vh; } */
-  .contactLink { font-size: 55%; display: inline-block; }
-  .fineprint { padding-top: 20px; }
-}
 
-/*Tablets*/
-@media only screen and (min-width : 768px) {
-  /* img { max-width: 60vw; max-height: 80vh;  }
-  .square { max-width: 60vw; max-height: 80vh; } */
-  .contactLink { font-size: 70%; display: inline-block; }
-}
 
-/*Desktops and laptops*/
-@media only screen and (min-width : 1224px) {
-.greeting { width: 70vw; }
-.contactLink { font-size: 70%; display: inline-block; }
-
-}
-
-/*Very large screens*/
-@media only screen and (min-width : 1824px) {
-
-}
 
 /*///////////////////////////////////////////////////////////*/
 
@@ -164,7 +141,7 @@ div.projectLink {
   width: 90px;
 }
 
-#contact {
+.contact {
   font-size: 40px;
   color: white;
   transform: rotate(-180deg);
@@ -175,8 +152,12 @@ div.projectLink {
   cursor: pointer;
 }
 
-#contact:hover {
+.contact:hover {
   cursor: pointer;
+}
+
+.mobileContactInitial {
+  color: #ff2f00;
 }
 
 #overlay {
@@ -227,6 +208,7 @@ div.projectLink {
   color: #2000ff;
 }
 
+
 /*///////////////////////FOOTER/////////////////////////*/
 
 footer {
@@ -252,50 +234,6 @@ footer {
   -webkit-animation: bounce 1s infinite; //webkit browsers
   -moz-animation: bounce 1s infinite; //firefox
   -o-animation: bounce 1s infinite; //opera
-}
-
-/*////////////////////////BOTTOM STAT//////////////////////////*/
-
-#wrapper {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.statNumber {
-  color: white;
-  font-size: 100px;
-  font-weight: 700;
-  text-align: center;
-  display: inline-block;
-}
-
-.statDetails {
-  color: white;
-  font-size: 40px;
-  margin-top: -73px;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-#star {
-  font-size: 40px;
-}
-
-#makeSomething {
-  color: white;
-  font-size: 12px;
-  font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 10px;
-}
-
-.fineprint {
-  color: white;
-  font-size: 10px;
-  margin-top: -20px;
-  margin-bottom: 40px;
-  padding-left: 10px;
 }
 
 
