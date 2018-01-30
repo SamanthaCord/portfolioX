@@ -7,7 +7,9 @@
   <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg"/>
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
-  <script src="https://use.fontawesome.com/1f6a83fb63.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <!-- <script src="https://use.fontawesome.com/1f6a83fb63.js"></script> -->
   <link rel="stylesheet" href="css/main.css">
   <title>SEE SAM</title>
 </head>
@@ -25,14 +27,14 @@
     <h1 class="greeting">Junior Frontend Developer.</h1>
 
     <div class="projectLink" id="mobileProjectLink">
-      <a class="contact">Contact Info</a>
+      <a id="contact">Contact Info</a>
       <a class="mobileContactInitial" id="mobileContact">Contact Info</a>
     </div>
 
     <div id="overlay">
 
       <div id="overlaySubContainer">
-        <i class="fa fa-window-close-o"></i>
+        <i class="material-icons">clear</i>
         <h1 class="overlayInfo">Call me. <a class="contactLink" href="tel:0420314690">0420314690</a></h1>
         <h1 class="overlayInfo">Write (to) me. <a class="contactLink" href="mailto:sam@cordandberg.com?Subject=Website%20Enquiry" target="_blank">sam@cordandberg.com</a></h1>
         <h1 class="overlayInfo">Stalk me. <a class="contactLink" href="https://www.instagram.com/sxcordingley/" target="_blank">@sxcordingley</a></h1>
@@ -43,6 +45,7 @@
 
 
     <div class="projectOneContainer">
+      <i id="exitProjectOverlay" class="material-icons">clear</i>
       <p class="projectNumber">Project 0</p>
       <h1 class="projectTitle">Pizzza</h1>
       <h1 class="projectTagline">Tic Tac Toe, Reimagined.</h1>
@@ -56,7 +59,7 @@
         <br />
         The first player to get three icons in a row (vertically, horizontally or diagonally) wins!</p>
 
-        <a class="projectLink" href="https://samanthacord.github.io/project0/">PLAY THE GAME</a>
+        <a class="projectLink" href="https://samanthacord.github.io/project0/" target="_blank">PLAY THE GAME</a>
     </div>
 
     <div class="gridContainer">

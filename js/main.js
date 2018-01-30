@@ -73,7 +73,7 @@ $('#six').mouseleave(function() {
 
 ///////contact overlay
 
-  $(".contact").click(function() {
+  $("#contact").click(function() {
     $("#overlay").css("display", "block");
   })
 
@@ -81,12 +81,26 @@ $('#six').mouseleave(function() {
     $("#overlay").css("display", "block");
   })
 
-  $(".fa.fa-window-close-o").click(function() {
+  $(".material-icons").click(function() {
     $("#overlay").css("display", "none");
   })
 
   $("#wordChange").click(function() {
     $("#wordChange").text(random(bribes));
+  })
+
+  /////////open project 1 overlay
+
+  $("#one").click(function() {
+    $(".projectOneContainer").css("display", "block");
+    $("#projectOverlayBackground").css("display", "block");
+  })
+
+    /////////close project 1 overlay
+
+  $("#exitProjectOverlay").click(function() {
+    $(".projectOneContainer").css("display", "none");
+    $("#projectOverlayBackground").css("display", "none");
   })
 
 
