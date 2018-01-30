@@ -14,7 +14,7 @@
 @media screen and (max-width : 480px) {
   .contactLink { font-size: 55%; display: inline-block; }
   .fineprint { padding-top: 20px; }
-  .contact { display: none; }
+  #contact { display: none; }
   #mobileContact { display: inline-block; text-align: center; font-weight: 400; font-size: 40px; color: white; padding: 4%; padding-left: 17%; cursor: pointer; }
   #mobileProjectLink { display: block; background-color: red; width: 100%; height: 5em; bottom: 0; top: 96.5%;}
 }
@@ -127,7 +127,7 @@ main {
 
 /*///////////////////////PROJECT LINK/////////////////////////*/
 
-div.projectLink {
+.projectLink {
   height: 100%;
   width: 70px;
   background-color: #ff2f00;
@@ -143,12 +143,12 @@ div.projectLink {
   width: 90px;
 }
 
-a#contact {
+#contact {
   font-size: 40px;
   color: white;
   transform: rotate(-180deg);
   writing-mode: tb-rl;
-  margin: 10px;
+  margin-left: 10px;
   font-weight: 400;
   height: 65vh;
   cursor: pointer;
@@ -227,7 +227,7 @@ footer {
   text-decoration: none;
   color: white;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 10px;
 }
 
@@ -339,7 +339,7 @@ footer {
   margin-bottom: 40px;
 }
 
-.projectLink {
+.seeProjectLink {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
