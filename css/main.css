@@ -172,6 +172,8 @@ main {
   /* background: #232020; */
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 
@@ -260,23 +262,38 @@ footer {
 	}
 }
 
-/*////////////////////////PROJECT 5 OVERLAY/////////////////////*/
+/*////////////////////////PROJECT 1 OVERLAY/////////////////////*/
 
 .projectOneContainer {
   display: none;
   z-index: 99;
   position: absolute;
+  overflow-y: auto;
   margin: 0 auto;
   left: 25%;
-  right: 25%;
-  min-height: 50%;
+  right: 21%;
+  height: 40%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
   padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
-}
+  }
+
+  .projectOneContainer::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  .projectOneContainer::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+
+  .projectOneContainer::-webkit-scrollbar-thumb {
+    background-color: #232020;
+    outline: 3px solid #232020;
+  }
+
 
 #exitProjectOverlay1 {
   margin: 0;
@@ -300,16 +317,30 @@ footer {
   display: none;
   z-index: 99;
   position: absolute;
+  overflow-y: auto;
   margin: 0 auto;
   left: 25%;
-  right: 25%;
-  min-height: 50%;
+  right: 21%;
+  height: 40%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
   padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+}
+
+.projectTwoContainer::-webkit-scrollbar {
+  width: 1em;
+}
+
+.projectTwoContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.projectTwoContainer::-webkit-scrollbar-thumb {
+  background-color: #232020;
+  outline: 3px solid #232020;
 }
 
 #exitProjectOverlay2 {
@@ -382,16 +413,30 @@ footer {
   display: none;
   z-index: 99;
   position: absolute;
+  overflow-y: auto;
   margin: 0 auto;
   left: 25%;
-  right: 25%;
-  min-height: 50%;
+  right: 21%;
+  height: 40%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
   padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+}
+
+.projectThreeContainer::-webkit-scrollbar {
+  width: 1em;
+}
+
+.projectThreeContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.projectThreeContainer::-webkit-scrollbar-thumb {
+  background-color: #232020;
+  outline: 3px solid #232020;
 }
 
 #exitProjectOverlay3 {
@@ -414,16 +459,30 @@ footer {
   display: none;
   z-index: 99;
   position: absolute;
+  overflow-y: auto;
   margin: 0 auto;
   left: 25%;
-  right: 25%;
-  min-height: 50%;
+  right: 21%;
+  height: 40%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
   padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+}
+
+.projectFourContainer::-webkit-scrollbar {
+  width: 1em;
+}
+
+.projectFourContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.projectFourContainer::-webkit-scrollbar-thumb {
+  background-color: #232020;
+  outline: 3px solid #232020;
 }
 
 #exitProjectOverlay4 {
@@ -446,16 +505,30 @@ footer {
   display: none;
   z-index: 99;
   position: absolute;
+  overflow-y: auto;
   margin: 0 auto;
   left: 25%;
-  right: 25%;
-  min-height: 50%;
+  right: 21%;
+  height: 40%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
   padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+}
+
+.projectFiveContainer::-webkit-scrollbar {
+  width: 1em;
+}
+
+.projectFiveContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.projectFiveContainer::-webkit-scrollbar-thumb {
+  background-color: #232020;
+  outline: 3px solid #232020;
 }
 
 #exitProjectOverlay5 {
@@ -478,16 +551,30 @@ footer {
   display: none;
   z-index: 99;
   position: absolute;
+  overflow-y: auto;
   margin: 0 auto;
   left: 25%;
-  right: 25%;
-  min-height: 50%;
+  right: 21%;
+  height: 40%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
   padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+}
+
+.projectSixContainer::-webkit-scrollbar {
+  width: 1em;
+}
+
+.projectSixContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.projectSixContainer::-webkit-scrollbar-thumb {
+  background-color: #232020;
+  outline: 3px solid #232020;
 }
 
 #exitProjectOverlay6 {

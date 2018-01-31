@@ -108,7 +108,7 @@ $('#six').mouseleave(function() {
     setTimeout(function() { $("#wordChange10").hide(); }, 6906);
     setTimeout(function() { $("#bribeSentence").hide(); }, 6906);
 
-    setTimeout(function() { $("#wordChange11").show(); }, 6950);
+    setTimeout(function() { $("#wordChange11").show(); }, 6905);
 
 
 
