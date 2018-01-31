@@ -89,17 +89,73 @@ $('#six').mouseleave(function() {
     $("#wordChange").text(random(bribes));
   })
 
-  /////////open project 1 overlay
+  /////////open project 2 overlay
 
-  $("#one").click(function() {
-    $(".projectOneContainer").css("display", "block");
+  $("#two").click(function() {
+    $(".projectTwoContainer").css("display", "block");
     $("#projectOverlayBackground").css("display", "block");
   })
 
-    /////////close project 1 overlay
+    /////////close project 2 overlay
 
-  $("#exitProjectOverlay").click(function() {
-    $(".projectOneContainer").css("display", "none");
+  $("#exitProjectOverlay2").click(function() {
+    $(".projectTwoContainer").css("display", "none");
+    $("#projectOverlayBackground").css("display", "none");
+  })
+
+  /////////open project 3 overlay
+
+  $("#three").click(function() {
+    $(".projectThreeContainer").css("display", "block");
+    $("#projectOverlayBackground").css("display", "block");
+  })
+
+    /////////close project 3 overlay
+
+  $("#exitProjectOverlay3").click(function() {
+    $(".projectThreeContainer").css("display", "none");
+    $("#projectOverlayBackground").css("display", "none");
+  })
+
+  /////////open project 4 overlay
+
+  $("#four").click(function() {
+    $(".projectFourContainer").css("display", "block");
+    $("#projectOverlayBackground").css("display", "block");
+  })
+
+    /////////close project 4 overlay
+
+  $("#exitProjectOverlay4").click(function() {
+    $(".projectFourContainer").css("display", "none");
+    $("#projectOverlayBackground").css("display", "none");
+  })
+
+  /////////open project 5 overlay
+
+  $("#five").click(function() {
+    $(".projectFiveContainer").css("display", "block");
+    $("#projectOverlayBackground").css("display", "block");
+  })
+
+    /////////close project 5 overlay
+
+  $("#exitProjectOverlay5").click(function() {
+    $(".projectFiveContainer").css("display", "none");
+    $("#projectOverlayBackground").css("display", "none");
+  })
+
+  /////////open project 6 overlay
+
+  $("#six").click(function() {
+    $(".projectSixContainer").css("display", "block");
+    $("#projectOverlayBackground").css("display", "block");
+  })
+
+    /////////close project 6 overlay
+
+  $("#exitProjectOverlay6").click(function() {
+    $(".projectSixContainer").css("display", "none");
     $("#projectOverlayBackground").css("display", "none");
   })
 

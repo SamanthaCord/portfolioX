@@ -259,7 +259,7 @@ footer {
 	}
 }
 
-/*////////////////////////PROJECT 1 OVERLAY/////////////////////*/
+/*////////////////////////PROJECT 2 OVERLAY/////////////////////*/
 
 #projectOverlayBackground {
   display: none;
@@ -269,7 +269,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.projectOneContainer {
+.projectTwoContainer {
   display: none;
   z-index: 99;
   position: absolute;
@@ -285,7 +285,7 @@ footer {
   padding-left: 70px;
 }
 
-#exitProjectOverlay {
+#exitProjectOverlay2 {
   margin: 0;
   padding: 0;
   color: black;
@@ -325,7 +325,7 @@ footer {
   padding-left: 22px;
 }
 
-.secondaryImage {
+.secondaryImage2 {
   display: block;
   width: 550px;
   height: 550px;
@@ -347,4 +347,132 @@ footer {
   text-decoration: none;
   font-weight: 700;
   padding-left: 22px;
+}
+
+/*////////////////////////PROJECT 3 OVERLAY/////////////////////*/
+
+.projectThreeContainer {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  margin: 0 auto;
+  left: 25%;
+  right: 25%;
+  min-height: 50%;
+  min-width: 40%;
+  background-color: white;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 70px;
+}
+
+#exitProjectOverlay3 {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 70px;
+}
+
+.secondaryImage3 {
+  display: block;
+  width: 550px;
+  height: 360px;
+  margin-bottom: 50px;
+}
+
+/*////////////////////////PROJECT 4 OVERLAY/////////////////////*/
+
+.projectFourContainer {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  margin: 0 auto;
+  left: 25%;
+  right: 25%;
+  min-height: 50%;
+  min-width: 40%;
+  background-color: white;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 70px;
+}
+
+#exitProjectOverlay4 {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 70px;
+}
+
+.secondaryImage4 {
+  display: block;
+  width: 550px;
+  height: 550px;
+  margin-bottom: 50px;
+}
+
+/*////////////////////////PROJECT 5 OVERLAY/////////////////////*/
+
+.projectFiveContainer {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  margin: 0 auto;
+  left: 25%;
+  right: 25%;
+  min-height: 50%;
+  min-width: 40%;
+  background-color: white;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 70px;
+}
+
+#exitProjectOverlay5 {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 70px;
+}
+
+.secondaryImage5 {
+  display: block;
+  width: 550px;
+  height: 380px;
+  margin-bottom: 50px;
+}
+
+/*////////////////////////PROJECT 6 OVERLAY/////////////////////*/
+
+.projectSixContainer {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  margin: 0 auto;
+  left: 25%;
+  right: 25%;
+  min-height: 50%;
+  min-width: 40%;
+  background-color: white;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 70px;
+}
+
+#exitProjectOverlay6 {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 70px;
+}
+
+.secondaryImage6 {
+  display: block;
+  width: 550px;
+  height: 360px;
+  margin-bottom: 50px;
 }
