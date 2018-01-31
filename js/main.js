@@ -62,11 +62,11 @@ $('#six').mouseleave(function() {
 
 ///////contact overlay
 
-  $("#contact").click(function() {
+  $(".projectLink").click(function() {
     $("#overlay").css("display", "block");
   })
 
-  $("#mobileContact").click(function() {
+  $("#mobileProjectLink").click(function() {
     $("#overlay").css("display", "block");
   })
 
