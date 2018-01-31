@@ -1,16 +1,5 @@
 console.log("hello");
 
-////////bribe page random word display
-
-bribes = ["Chocolate", "Gin", "Pie", "Cudos", "Sour Worms", "Whiskey", "Pizza", "Cigars", "Cheese", "All the things"];
-// console.log(bribes);
-
-const random = function(array) {
-  for (let i = 0; i < array.length; i++) {
-    return array[Math.floor(Math.random() * array.length)];
-  }
-};
-console.log(random(bribes));
 
 /////////document ready
 
@@ -85,8 +74,56 @@ $('#six').mouseleave(function() {
     $("#overlay").css("display", "none");
   })
 
-  $("#wordChange").click(function() {
-    $("#wordChange").text(random(bribes));
+//////////BRIBE COUNTDOWN
+
+    setTimeout(function() { $("#wordChange").hide(); }, 1000);
+
+    setTimeout(function() { $("#wordChange2").show(); }, 1200);
+    setTimeout(function() { $("#wordChange2").hide(); }, 1700);
+
+    setTimeout(function() { $("#wordChange3").show(); }, 1900);
+    setTimeout(function() { $("#wordChange3").hide(); }, 2300);
+
+    setTimeout(function() { $("#wordChange4").show(); }, 2500);
+    setTimeout(function() { $("#wordChange4").hide(); }, 2900);
+
+    setTimeout(function() { $("#wordChange5").show(); }, 3100);
+    setTimeout(function() { $("#wordChange5").hide(); }, 3500);
+
+    setTimeout(function() { $("#wordChange6").show(); }, 3700);
+    setTimeout(function() { $("#wordChange6").hide(); }, 4100);
+
+    setTimeout(function() { $("#wordChange7").show(); }, 4300);
+    setTimeout(function() { $("#wordChange7").hide(); }, 4700);
+
+    setTimeout(function() { $("#wordChange8").show(); }, 4900);
+    setTimeout(function() { $("#wordChange8").hide(); }, 5300);
+
+    setTimeout(function() { $("#wordChange9").show(); }, 5500);
+    setTimeout(function() { $("#wordChange9").hide(); }, 5900);
+
+    setTimeout(function() { $("#wordChange10").show(); }, 6100);
+    setTimeout(function() { $("#wordChange10").css("animation", "fadeOut 5s"); }, 6900);
+    setTimeout(function() { $("#bribeSentence").css("animation", "fadeOut 5s"); }, 6900);
+    setTimeout(function() { $("#wordChange10").hide(); }, 6906);
+    setTimeout(function() { $("#bribeSentence").hide(); }, 6906);
+
+    setTimeout(function() { $("#wordChange11").show(); }, 6950);
+
+
+
+  /////////open about me overlay
+
+  $("#one").click(function() {
+    $(".projectOneContainer").css("display", "block");
+    $("#projectOverlayBackground").css("display", "block");
+  })
+
+    /////////close about me overlay
+
+  $("#exitProjectOverlay1").click(function() {
+    $(".projectOneContainer").css("display", "none");
+    $("#projectOverlayBackground").css("display", "none");
   })
 
   /////////open project 2 overlay

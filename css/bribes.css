@@ -18,7 +18,7 @@ h1 {
 text-align: center;
 font-size: 80px;
 color: white;
-padding-top: 10%;
+padding-top: 20%;
 }
 
 span {
@@ -26,19 +26,68 @@ span {
   margin-bottom: 0;
 }
 
-span:hover {
-  cursor: pointer;
+#wordChange2 {
+  display: none;
 }
 
-p {
-  text-align: left;
-  font-size: 12px;
+#wordChange3 {
+  display: none;
+}
+
+#wordChange4 {
+  display: none;
+}
+
+#wordChange5 {
+  display: none;
+}
+
+#wordChange6 {
+  display: none;
+}
+
+#wordChange7 {
+  display: none;
+}
+
+#wordChange8 {
+  display: none;
+}
+
+#wordChange9 {
+  display: none;
+}
+
+#wordChange10 {
+  display: none;
+}
+
+#wordChange11 {
+  display: none;
+  text-align: center;
+  font-size: 80px;
   color: white;
-  margin-left: 22%;
+  padding-top: 20%;
+  animation: fadeIn 2s;
 }
 
-#pArrow {
-  margin-top: -32px;
-  margin-left: 23.5%;
-  margin-bottom: -2px;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
 }
