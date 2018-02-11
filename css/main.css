@@ -566,14 +566,14 @@ footer {
 /*//////////MEDIA QUERIES FOR DIFFERENT VIEWPORTS///////////*/
 
 /*Tablet mode*/
-@media screen and (max-width : 1150px) {
+@media screen and (max-width : 1170px) {
   .contactLink { font-size: 55%; display: inline-block; }
   .fineprint { padding-top: 20px; }
   #contact { display: none; }
   #mobileContact { display: block; text-align: center; font-weight: 400; font-size: 40px; color: white; padding: 2%;  cursor: pointer; }
   #mobileProjectLink { height: 4em; background-color: red; text-align: center; font-weight: 400; font-size: 40px; position: fixed; bottom: 0; right: 0; left: 0; top: auto; z-index: 98; width: 100%; }
   footer { z-index: 99; }
-  .gridContainer {  display: grid; grid-template-columns: repeat(2, 400px); grid-template-rows: repeat(2, 400px); margin-left: 10%; }
+  .gridContainer {  display: grid; grid-template-columns: repeat(2, 400px); grid-template-rows: repeat(2, 400px); margin-left: 12%; }
   .square { width: 400px; height: 400px; display: inline-block; }
   .projectOneContainer { left: 16%; max-width: 70%; }
   .projectTwoContainer { left: 16%; max-width: 70%; }
