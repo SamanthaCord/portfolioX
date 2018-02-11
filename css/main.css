@@ -142,9 +142,9 @@ main {
 .material-icons {
   color: white;
   font-size: 80px;
-  display: block;
-  text-align: right;
-  margin: -30px 0px 80px 0px;
+  display: inline-block;
+  position: fixed;
+  right: 0;
   font-weight: 100;
 }
 
@@ -644,4 +644,5 @@ footer {
   .secondaryImage5 { width: 98%; height: auto; }
   .projectSixContainer { max-width: 90%; }
   .secondaryImage6 { width: 98%; height: auto; }
+  .material-icons { right: 0em; }
 }

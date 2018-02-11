@@ -6,6 +6,13 @@ console.log("hello");
 $(document).ready(function () {
   console.log("document ready");
 
+/////////open contact form through logo
+
+  $("#logo").click(function() {
+    $("#overlay").css("display", "block");
+
+  })
+
 ////////// hover sqaure 1
 
   $('#one').mouseenter(function() {

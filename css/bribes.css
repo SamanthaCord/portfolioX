@@ -10,6 +10,30 @@ body {
   line-height: 1.2;
 }
 
+.logo  {
+  margin: 20px;
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #ff2f00;
+  display: inline-block;
+}
+
+.logo:hover {
+  background-color: white;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+}
+
+#logo:hover {
+  color: #ff2f00;
+}
+
 #container {
   height: 50vh;
 }
