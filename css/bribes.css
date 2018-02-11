@@ -68,7 +68,7 @@ span {
   font-size: 80px;
   color: white;
   padding-top: 20%;
-  animation: fadeIn 2s;
+  animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
