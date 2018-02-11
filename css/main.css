@@ -142,10 +142,15 @@ main {
 .material-icons {
   color: white;
   font-size: 80px;
+  display: block;
+  text-align: right;
+  font-weight: 100;
+}
+
+#closeIconPosition {
   display: inline-block;
   position: fixed;
   right: 0;
-  font-weight: 100;
 }
 
 .material-icons:hover {

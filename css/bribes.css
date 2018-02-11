@@ -84,6 +84,7 @@ span {
 
 #wordChange10 {
   display: none;
+  animation: fadeOut 4s;
 }
 
 #wordChange11 {
@@ -92,7 +93,7 @@ span {
   font-size: 80px;
   color: white;
   padding-top: 20%;
-  animation: fadeIn 3s;
+  animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
