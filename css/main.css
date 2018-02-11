@@ -8,21 +8,6 @@
   box-sizing: border-box;
 }
 
-/*//////////MEDIA QUERIES FOR DIFFERENT VIEWPORTS///////////*/
-
-/*Mobiles portrait mode*/
-@media screen and (max-width : 480px) {
-  .contactLink { font-size: 55%; display: inline-block; }
-  .fineprint { padding-top: 20px; }
-  #contact { display: none; }
-  #mobileContact { display: inline-block; text-align: center; font-weight: 400; font-size: 40px; color: white; padding: 4%; padding-left: 17%; cursor: pointer; }
-  #mobileProjectLink { display: block; background-color: red; width: 100%; height: 5em; bottom: 0; top: 96.5%;}
-  .gridContainer {  display: block; grid-template-columns: repeat(1, 200px); grid-template-rows: repeat(6, 200px); margin-left: 0;}
-  .square { width: 200px; height: 200px; display: block; }
-}
-
-
-
 
 /*///////////////////////////////////////////////////////////*/
 
@@ -83,36 +68,6 @@ main {
   grid-template-rows: repeat(3, 480px);
 }
 
-/* #one {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-#two {
-    grid-column: 2 / 2;
-    grid-row: 1 / 2;
-}
-
-#three {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-}
-
-#four {
-    grid-column: 2 / 2;
-    grid-row: 2 / 3;
-}
-
-#five {
-    grid-column: 1 / 2;
-    grid-row: 3 / 3;
-}
-
-#six {
-    grid-column: 2 / 2;
-    grid-row: 3 / 3;
-} */
-
 .square {
   width: 480px;
   height: 480px;
@@ -167,7 +122,7 @@ main {
 
 #overlay {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
@@ -220,12 +175,15 @@ main {
 /*///////////////////////FOOTER/////////////////////////*/
 
 footer {
-  /*width: 100%;*/
   height: 80px;
   background-color: #2000ff;
   text-align: center;
   font-weight: 400;
   font-size: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .footerLink {
@@ -239,9 +197,9 @@ footer {
 
 #gitty:hover {
   animation: bounce 1s infinite;
-  -webkit-animation: bounce 1s infinite; //webkit browsers
-  -moz-animation: bounce 1s infinite; //firefox
-  -o-animation: bounce 1s infinite; //opera
+  -webkit-animation: bounce 1s infinite; /*webkit browsers*/
+  -moz-animation: bounce 1s infinite; /*firefox*/
+  -o-animation: bounce 1s infinite; /*opera*/
 }
 
 
@@ -272,6 +230,7 @@ footer {
   z-index: 99;
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
@@ -321,6 +280,7 @@ footer {
   z-index: 99;
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
@@ -388,8 +348,9 @@ footer {
 
 .secondaryImage2 {
   display: block;
-  width: 550px;
-  height: 550px;
+  width: 100%;
+  height: auto;
+  padding: 2px;
   margin-bottom: 50px;
 }
 
@@ -417,6 +378,7 @@ footer {
   z-index: 99;
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
@@ -451,8 +413,9 @@ footer {
 
 .secondaryImage3 {
   display: block;
-  width: 550px;
-  height: 360px;
+  width: 100%;
+  height: auto;
+  padding: 2px;
   margin-bottom: 50px;
 }
 
@@ -463,6 +426,7 @@ footer {
   z-index: 99;
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
@@ -497,8 +461,9 @@ footer {
 
 .secondaryImage4 {
   display: block;
-  width: 550px;
-  height: 340px;
+  width: 100%;
+  height: auto;
+  padding: 2px;
   margin-bottom: 50px;
 }
 
@@ -509,6 +474,7 @@ footer {
   z-index: 99;
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
@@ -543,8 +509,9 @@ footer {
 
 .secondaryImage5 {
   display: block;
-  width: 550px;
-  height: 380px;
+  width: 100%;
+  height: auto;
+  padding: 2px;
   margin-bottom: 50px;
 }
 
@@ -555,6 +522,7 @@ footer {
   z-index: 99;
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
@@ -589,7 +557,91 @@ footer {
 
 .secondaryImage6 {
   display: block;
-  width: 550px;
-  height: 360px;
+  width: 100%;
+  height: auto;
+  padding: 2px;
   margin-bottom: 50px;
+}
+
+/*//////////MEDIA QUERIES FOR DIFFERENT VIEWPORTS///////////*/
+
+/*Tablet mode*/
+@media screen and (max-width : 1150px) {
+  .contactLink { font-size: 55%; display: inline-block; }
+  .fineprint { padding-top: 20px; }
+  #contact { display: none; }
+  #mobileContact { display: block; text-align: center; font-weight: 400; font-size: 40px; color: white; padding: 2%;  cursor: pointer; }
+  #mobileProjectLink { display: block; background-color: red; width: 100%; height: 5em; bottom: 5; top: 83%; position: fixed; z-index: 99;}
+  .gridContainer {  display: grid; grid-template-columns: repeat(2, 400px); grid-template-rows: repeat(2, 400px); margin-left: 10%; }
+  .square { width: 400px; height: 400px; display: inline-block; }
+  .projectOneContainer { left: 16%; max-width: 70%; }
+  .projectTwoContainer { left: 16%; max-width: 70%; }
+  .projectThreeContainer { left: 16%; max-width: 70%; }
+  .projectFourContainer { left: 16%; max-width: 70%; }
+  .projectFiveContainer { left: 16%; max-width: 70%; }
+  .projectSixContainer { left: 16%; max-width: 70%; }
+}
+
+
+@media screen and (max-width : 950px) {
+  .gridContainer {  display: grid; grid-template-columns: repeat(2, 400px); grid-template-rows: repeat(3, 400px); margin-left: 5%; }
+  .square { width: 400px; height: 400px; display: inline-block; }
+  .projectOneContainer { left: 16%; max-width: 70%; }
+  .projectTwoContainer { left: 16%; max-width: 70%; }
+  .projectThreeContainer { left: 16%; max-width: 70%; }
+  .projectFourContainer { left: 16%; max-width: 70%; }
+  .projectFiveContainer { left: 16%; max-width: 70%; }
+  .projectSixContainer { left: 16%; max-width: 70%; }
+}
+
+/*Mobiles smaller tablet*/
+@media screen and (max-width : 800px) {
+  .gridContainer {  display: grid; grid-template-columns: repeat(1, 400px); grid-template-rows: repeat(1, 400px); margin-left: 18%; }
+  .square { width: 400px; height: 400px; display: inline-block; }
+  .projectOneContainer { left: 16%; max-width: 70%; padding-left: 3px; padding-right: 2px; }
+  .projectTwoContainer { left: 16%; max-width: 70%; padding-left: 3px; padding-right: 2px; }
+  .projectThreeContainer { left: 16%; max-width: 70%; padding-left: 3px; padding-right: 2px; }
+  .projectFourContainer { left: 16%; max-width: 70%; padding-left: 3px; padding-right: 2px; }
+  .projectFiveContainer { left: 16%; max-width: 70%; padding-left: 3px; padding-right: 2px; }
+  .projectSixContainer { left: 16%; max-width: 70%; padding-left: 3px; padding-right: 2px; }
+  .projectTitle { font-size: 55px; }
+  .projectTagline { font-size: 50px; }
+  .projectDescription { padding-left: 10px; }
+}
+
+/*Mobiles landscape mobile*/
+@media screen and (max-width : 500px) {
+  .gridContainer {  display: grid; grid-template-columns: repeat(2, 440px); grid-template-rows: repeat(3, 440px); margin-left: 5%; }
+  .square { width: 440px; height: 440px; display: inline-block; }
+  .projectOneContainer { max-width: 90%; padding-right: 0; }
+  .projectTwoContainer { max-width: 90%; padding-right: 0; }
+  .projectThreeContainer { max-width: 90%; padding-right: 0; }
+  .projectFourContainer { max-width: 90%; padding-right: 0; }
+  .projectFiveContainer { max-width: 90%; padding-right: 0; }
+  .projectSixContainer { max-width: 90%; padding-right: 0; }
+  .projectNumber { font-size: 10px; }
+  .projectTitle { font-size: 35px; }
+  .projectTagline { font-size: 30px; }
+}
+
+/*Mobiles portrait mode*/
+@media screen and (max-width : 480px) {
+  .contactLink { font-size: 55%; display: inline-block; }
+  .fineprint { padding-top: 20px; }
+  #contact { display: none; }
+  #mobileContact { display: inline-block; text-align: center; font-weight: 400; font-size: 40px; color: white; padding: 4%; padding-left: 17%; cursor: pointer; }
+  #mobileProjectLink { display: block; background-color: red; width: 100%; height: 5em; bottom: 0; top: 81.5%;}
+  .gridContainer {  display: grid; grid-template-columns: repeat(1, 350px); grid-template-rows: repeat(6, 350px); margin-left: 25px;}
+  .square { width: 350px; height: 350px; display: block; }
+  .projectOneContainer { max-width: 90%; }
+  .projectTwoContainer { max-width: 90%; }
+  .secondaryImage2 { width: 98%; height: auto; }
+  .projectThreeContainer { max-width: 90%; }
+  .secondaryImage3 { width: 98%; height: auto; }
+  .projectFourContainer { max-width: 90%; }
+  .secondaryImage4 { width: 98%; height: auto; }
+  .projectFiveContainer { max-width: 90%; }
+  .secondaryImage5 { width: 98%; height: auto; }
+  .projectSixContainer { max-width: 90%; }
+  .secondaryImage6 { width: 98%; height: auto; }
 }
