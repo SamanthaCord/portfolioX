@@ -123,85 +123,114 @@ $('#six').mouseleave(function() {
 
   $("#one").click(function() {
     $(".projectOneContainer").css("display", "block");
-    $("#projectOverlayBackground").css("display", "block");
+    $("#projectOverlayBackground1").css("display", "block");
   })
 
     /////////close about me overlay
 
   $("#exitProjectOverlay1").click(function() {
     $(".projectOneContainer").css("display", "none");
-    $("#projectOverlayBackground").css("display", "none");
+    $("#projectOverlayBackground1").css("display", "none");
+  })
+
+  $("#projectOverlayBackground1").click(function() {
+    $(".projectOneContainer").css("display", "none");
+    $("#projectOverlayBackground1").css("display", "none");
   })
 
   /////////open project 2 overlay
 
   $("#two").click(function() {
     $(".projectTwoContainer").css("display", "block");
-    $("#projectOverlayBackground").css("display", "block");
+    $("#projectOverlayBackground2").css("display", "block");
   })
 
     /////////close project 2 overlay
 
   $("#exitProjectOverlay2").click(function() {
     $(".projectTwoContainer").css("display", "none");
-    $("#projectOverlayBackground").css("display", "none");
+    $("#projectOverlayBackground2").css("display", "none");
+  })
+
+  $("#projectOverlayBackground2").click(function() {
+    $(".projectTwoContainer").css("display", "none");
+    $("#projectOverlayBackground2").css("display", "none");
   })
 
   /////////open project 3 overlay
 
   $("#three").click(function() {
     $(".projectThreeContainer").css("display", "block");
-    $("#projectOverlayBackground").css("display", "block");
+    $("#projectOverlayBackground3").css("display", "block");
   })
 
     /////////close project 3 overlay
 
   $("#exitProjectOverlay3").click(function() {
     $(".projectThreeContainer").css("display", "none");
-    $("#projectOverlayBackground").css("display", "none");
+    $("#projectOverlayBackground3").css("display", "none");
+  })
+
+  $("#projectOverlayBackground3").click(function() {
+    $(".projectThreeContainer").css("display", "none");
+    $("#projectOverlayBackground3").css("display", "none");
   })
 
   /////////open project 4 overlay
 
   $("#four").click(function() {
     $(".projectFourContainer").css("display", "block");
-    $("#projectOverlayBackground").css("display", "block");
+    $("#projectOverlayBackground4").css("display", "block");
   })
 
     /////////close project 4 overlay
 
   $("#exitProjectOverlay4").click(function() {
     $(".projectFourContainer").css("display", "none");
-    $("#projectOverlayBackground").css("display", "none");
+    $("#projectOverlayBackground4").css("display", "none");
+  })
+
+  $("#projectOverlayBackground4").click(function() {
+    $(".projectFourContainer").css("display", "none");
+    $("#projectOverlayBackground4").css("display", "none");
   })
 
   /////////open project 5 overlay
 
   $("#five").click(function() {
     $(".projectFiveContainer").css("display", "block");
-    $("#projectOverlayBackground").css("display", "block");
+    $("#projectOverlayBackground5").css("display", "block");
   })
 
     /////////close project 5 overlay
 
   $("#exitProjectOverlay5").click(function() {
     $(".projectFiveContainer").css("display", "none");
-    $("#projectOverlayBackground").css("display", "none");
+    $("#projectOverlayBackground5").css("display", "none");
+  })
+
+  $("#projectOverlayBackground5").click(function() {
+    $(".projectFiveContainer").css("display", "none");
+    $("#projectOverlayBackground5").css("display", "none");
   })
 
   /////////open project 6 overlay
 
   $("#six").click(function() {
     $(".projectSixContainer").css("display", "block");
-    $("#projectOverlayBackground").css("display", "block");
+    $("#projectOverlayBackground6").css("display", "block");
   })
 
     /////////close project 6 overlay
 
   $("#exitProjectOverlay6").click(function() {
     $(".projectSixContainer").css("display", "none");
-    $("#projectOverlayBackground").css("display", "none");
+    $("#projectOverlayBackground6").css("display", "none");
   })
 
+  $("#projectOverlayBackground6").click(function() {
+    $(".projectSixContainer").css("display", "none");
+    $("#projectOverlayBackground6").css("display", "none");
+  })
 
 })

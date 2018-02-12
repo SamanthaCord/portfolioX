@@ -269,10 +269,18 @@ footer {
   font-size: 70px;
 }
 
+#projectOverlayBackground1 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 /*////////////////////////PROJECT 2 OVERLAY/////////////////////*/
 
-#projectOverlayBackground {
+#projectOverlayBackground2 {
   display: none;
   width: 100%;
   height: 100%;
@@ -378,6 +386,14 @@ footer {
 
 /*////////////////////////PROJECT 3 OVERLAY/////////////////////*/
 
+#projectOverlayBackground3 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .projectThreeContainer {
   display: none;
   z-index: 99;
@@ -425,6 +441,14 @@ footer {
 }
 
 /*////////////////////////PROJECT 4 OVERLAY/////////////////////*/
+
+#projectOverlayBackground4 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .projectFourContainer {
   display: none;
@@ -474,6 +498,14 @@ footer {
 
 /*////////////////////////PROJECT 5 OVERLAY/////////////////////*/
 
+#projectOverlayBackground5 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .projectFiveContainer {
   display: none;
   z-index: 99;
@@ -521,6 +553,14 @@ footer {
 }
 
 /*////////////////////////PROJECT 6 OVERLAY/////////////////////*/
+
+#projectOverlayBackground6 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .projectSixContainer {
   display: none;
