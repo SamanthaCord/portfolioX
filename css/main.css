@@ -232,20 +232,20 @@ footer {
 
 .projectOneContainer {
   display: none;
-  z-index: 99;
-  position: absolute;
+  z-index: 100;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
-  height: 40%;
+  height: 60%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
-  padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+  position: fixed;
+  top: 15%;
   }
 
   .projectOneContainer::-webkit-scrollbar {
@@ -290,20 +290,20 @@ footer {
 
 .projectTwoContainer {
   display: none;
-  z-index: 99;
-  position: absolute;
+  z-index: 100;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
-  height: 40%;
+  height: 60%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
-  padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+  position: fixed;
+  top: 15%;
 }
 
 .projectTwoContainer::-webkit-scrollbar {
@@ -396,20 +396,20 @@ footer {
 
 .projectThreeContainer {
   display: none;
-  z-index: 99;
-  position: absolute;
+  z-index: 100;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
-  height: 40%;
+  height: 60%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
-  padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+  position: fixed;
+  top: 15%;
 }
 
 .projectThreeContainer::-webkit-scrollbar {
@@ -452,20 +452,20 @@ footer {
 
 .projectFourContainer {
   display: none;
-  z-index: 99;
-  position: absolute;
+  z-index: 100;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
-  height: 40%;
+  height: 60%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
-  padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+  position: fixed;
+  top: 15%;
 }
 
 .projectFourContainer::-webkit-scrollbar {
@@ -508,20 +508,20 @@ footer {
 
 .projectFiveContainer {
   display: none;
-  z-index: 99;
-  position: absolute;
+  z-index: 100;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
-  height: 40%;
+  height: 60%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
-  padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+  position: fixed;
+  top: 15%;
 }
 
 .projectFiveContainer::-webkit-scrollbar {
@@ -564,20 +564,20 @@ footer {
 
 .projectSixContainer {
   display: none;
-  z-index: 99;
-  position: absolute;
+  z-index: 100;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0 auto;
   left: 25%;
   right: 21%;
-  height: 40%;
+  height: 60%;
   min-width: 40%;
   background-color: white;
   padding-right: 80px;
-  padding-top: 20px;
   padding-bottom: 80px;
   padding-left: 70px;
+  position: fixed;
+  top: 15%;
 }
 
 .projectSixContainer::-webkit-scrollbar {
@@ -677,16 +677,16 @@ footer {
   .fineprint { padding-top: 20px; }
   .gridContainer {  display: grid; grid-template-columns: repeat(1, 350px); grid-template-rows: repeat(6, 350px); margin-left: 25px;}
   .square { width: 350px; height: 350px; display: block; }
-  .projectOneContainer { max-width: 90%; }
-  .projectTwoContainer { max-width: 90%; }
+  .projectOneContainer { max-width: 90%;   padding-right: 0; }
+  .projectTwoContainer { max-width: 90%; padding-right: 0; }
   .secondaryImage2 { width: 98%; height: auto; }
-  .projectThreeContainer { max-width: 90%; }
+  .projectThreeContainer { max-width: 90%; padding-right: 0; }
   .secondaryImage3 { width: 98%; height: auto; }
-  .projectFourContainer { max-width: 90%; }
+  .projectFourContainer { max-width: 90%; padding-right: 0; }
   .secondaryImage4 { width: 98%; height: auto; }
-  .projectFiveContainer { max-width: 90%; }
+  .projectFiveContainer { max-width: 90%; padding-right: 0; }
   .secondaryImage5 { width: 98%; height: auto; }
-  .projectSixContainer { max-width: 90%; }
+  .projectSixContainer { max-width: 90%; padding-right: 0; }
   .secondaryImage6 { width: 98%; height: auto; }
   .material-icons { right: 0em; }
 }
